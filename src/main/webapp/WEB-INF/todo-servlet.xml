@@ -13,7 +13,7 @@
 
 	<mvc:annotation-driven/>
     <mvc:annotation-driven enable-matrix-variables="true"/>
-  	<context:component-scan base-package="io.github.pappuraj"></context:component-scan>
+  	<context:component-scan base-package="io.github.pappuraj"/>
     
     
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
